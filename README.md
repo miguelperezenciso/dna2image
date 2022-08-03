@@ -30,3 +30,7 @@ The generation of realistic plant and animal images from marker information coul
 - skimage: basic
 - opencv: advanced, classical library 
 - PIL: basic operations, saving, rotating: https://pillow.readthedocs.io/en/stable/handbook/index.html
+
+### Required non standard libraries
+- pymrt: as downloaded from the web to generate 3D images
+- procrustes
