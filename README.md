@@ -5,11 +5,11 @@ M. Pérez-Enciso, C. Pons, A. Graell, A.J. Monforte, L.M. Zingaretti. Computer g
 Code to generate images from dna sequence
 
 ### Contents
-- Generates 2D and 3D ellipses
-- Generates cucurbit shapes
-- Generates tomato shapes
-- Generates 'offspring' ellipses from 'parents' ellipses
-- Generates 'offspring' tomato shapes from 'parents' shapes
+- Generates 2D and 3D ellipses: https://github.com/miguelperezenciso/dna2image/blob/main/dna2img.ellipse.ipynb
+- Generates cucurbit shapes: https://github.com/miguelperezenciso/dna2image/blob/main/dna2img.cucurbit.ipynb
+- Generates tomato shapes: https://github.com/miguelperezenciso/dna2image/blob/main/dna2img.tomato.ipynb
+- Generates 'offspring' ellipses from 'parents' ellipses: https://github.com/miguelperezenciso/dna2image/blob/main/img2img.ipynb
+- Generates 'offspring' tomato shapes from 'parents' shapes: https://github.com/miguelperezenciso/dna2image/blob/main/img2img.ipynb
 
 ### Some relevant sites / documentation used
 - https://docs.opencv.org/master/d6/d00/tutorial_py_root.html
