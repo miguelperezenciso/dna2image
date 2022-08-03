@@ -6,7 +6,7 @@ Code to generate images from dna sequence
 
 ### Contents
 - Generates 2D and 3D ellipses: https://github.com/miguelperezenciso/dna2image/blob/main/dna2img.ellipse.ipynb
-- Generates cucurbit shapes: https://github.com/miguelperezenciso/dna2image/blob/main/dna2img.cucurbit.ipynb
+- Generates cucurbit shapes: https://github.com/miguelperezenciso/dna2image/blob/main/dna2img.cucurbita.ipynb
 - Generates tomato shapes: https://github.com/miguelperezenciso/dna2image/blob/main/dna2img.tomato.ipynb
 - Generates 'offspring' ellipses from 'parents' ellipses: https://github.com/miguelperezenciso/dna2image/blob/main/img2img.ipynb
 - Generates 'offspring' tomato shapes from 'parents' shapes: https://github.com/miguelperezenciso/dna2image/blob/main/img2img.ipynb
