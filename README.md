@@ -26,8 +26,7 @@ The generation of realistic plant and animal images from marker information coul
 - Chollet F. 2017. https://www.manning.com/books/deep-learning-with-python , p122 ff for CNNs
 - https://github.com/Horea94
 
-### relevant image libraries are
+### Relevant image libraries are
 - skimage: basic
 - opencv: advanced, classical library 
-- PIL: basic operations, saving, rotating; 
-- https://pillow.readthedocs.io/en/stable/handbook/index.html
+- PIL: basic operations, saving, rotating: https://pillow.readthedocs.io/en/stable/handbook/index.html
