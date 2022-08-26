@@ -1,3 +1,5 @@
 {
-    
-}
+    "capabilities": {
+      "virtualWorkspaces": true
+    }
+  }
