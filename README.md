@@ -4,7 +4,7 @@ M. Pérez-Enciso, C. Pons, A. Graell, A.J. Monforte, L.M. Zingaretti. Computer g
 
 Code to generate images from dna sequence
 
-
+w
 
 ### Summary
 
