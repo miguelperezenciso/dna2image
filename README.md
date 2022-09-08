@@ -4,6 +4,7 @@ M. Pérez-Enciso, C. Pons, A. Graell, A.J. Monforte, L.M. Zingaretti. Computer g
 
 Code to generate images from dna sequence
 
+mperezenciso@gmail.com
 
 ### Summary
 
@@ -23,7 +24,7 @@ The generation of realistic plant and animal images from marker information coul
 
 **images**: contains cucurbita images 
 
-**Warning:** The last code requires file TraditomImageset.pkl (~1Gb), which is available from dropbox link https://www.dropbox.com/s/hvmt1a2qursameq/TraditomImgset.pkl?dl=0
+**Warning:** The tomato code requires file *TraditomImageset.pkl* (~1Gb), which is available from dropbox link https://www.dropbox.com/s/hvmt1a2qursameq/TraditomImgset.pkl?dl=0
 
 ### Some relevant sites / documentation used
 - https://docs.opencv.org/master/d6/d00/tutorial_py_root.html
@@ -36,10 +37,10 @@ The generation of realistic plant and animal images from marker information coul
 - https://github.com/Horea94
 
 ### Relevant image libraries are
-- skimage: basic
-- opencv: advanced, classical library 
+- skimage: basic image processing (https://scikit-image.org/)
+- opencv: advanced, classical library (https://pypi.org/project/opencv-python/, https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
 - PIL: basic operations, saving, rotating: https://pillow.readthedocs.io/en/stable/handbook/index.html
 
 ### Required non standard libraries
-- pymrt: as downloaded from the web to generate 3D images
-- procrustes
+- pymrt: as downloaded from the web to generate 3D images, **DO NOT** use the repository version available from pip.
+- procrustes: https://github.com/theochem/procrustes
