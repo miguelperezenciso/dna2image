@@ -26,7 +26,7 @@ The generation of realistic plant and animal images from marker information coul
 
 **images**: contains cucurbita images 
 
-**Warning:** The tomato code requires file *TraditomImageset.pkl* (~1Gb), which is available from dropbox link https://www.dropbox.com/s/hvmt1a2qursameq/TraditomImgset.pkl?dl=0
+**Warning:** The img2img code requires file *TraditomImgset.pkl* (~1Gb), which is available from dropbox link https://www.dropbox.com/s/hvmt1a2qursameq/TraditomImgset.pkl?dl=0
 
 ### Some relevant sites / documentation used
 - https://docs.opencv.org/master/d6/d00/tutorial_py_root.html
