@@ -3,7 +3,7 @@
 **Code to generate images from dna sequence**
 
 ### Citation:
-M. Pérez-Enciso, C. Pons, A. Graell, A.J. Monforte, L.M. Zingaretti. Computer generation of fruit shapes from DNA sequence. Biorxiv. submitted
+M. Pérez-Enciso, C. Pons, A. Graell, A.J. Monforte, L.M. Zingaretti. Computer generation of fruit shapes from DNA sequence. Biorxiv. [submitted](https://www.biorxiv.org/content/10.1101/2022.09.19.508595v1)
 
 mperezenciso@gmail.com
 
