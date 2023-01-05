@@ -24,7 +24,8 @@
 
 import numpy as np
 from procrustes.utils import compute_error, ProcrustesResult, setup_input_arrays
-from scipy.linalg import pinv, pinv2
+# from scipy.linalg import pinv, pinv2
+from scipy.linalg import pinv
 
 
 def generic(
@@ -114,13 +115,13 @@ def generic(
     new_a, new_b = setup_input_arrays(
         a, b, unpad_col, unpad_row, pad, translate, scale, check_finite, weight,
     )
-    # compute the generic solution
-    if use_svd:
+    # compute the generic solution (pinv2 deprecated)
+    #if use_svd:
         # Use the singular value decomposition, much faster but less robust.
-        a_inv = pinv2(np.dot(new_a.T, new_a))
-    else:
-        # Uses the least-squared method.
-        a_inv = pinv(np.dot(new_a.T, new_a))
+    #    a_inv = pinv2(np.dot(new_a.T, new_a))
+    #else:
+    # Uses the least-squared method.
+    a_inv = pinv(np.dot(new_a.T, new_a))
 
     array_x = np.linalg.multi_dot([a_inv, new_a.T, new_b])
     # compute one-sided error
