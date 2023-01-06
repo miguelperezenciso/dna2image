@@ -24,7 +24,7 @@
 
 import numpy as np
 from procrustes.utils import compute_error, ProcrustesResult, setup_input_arrays
-# from scipy.linalg import pinv, pinv2
+# MPE: from scipy.linalg import pinv, pinv2, thanks to Lydia Kienbaum
 from scipy.linalg import pinv
 
 
@@ -84,7 +84,7 @@ def generic(
         The 1D-array representing the weights of each row of :math:`\mathbf{A}`. This defines the
         elements of the diagonal matrix :math:`\mathbf{W}` that is multiplied by :math:`\mathbf{A}`
         matrix, i.e., :math:`\mathbf{A} \rightarrow \mathbf{WA}`.
-    use_svd : bool, optional
+    use_svd : bool, optional MPE: NOT needed anymore
         If True, the (Moore-Penrose) pseudo-inverse is computed by singular-value decomposition
         (SVD) including all 'large' singular values (using `scipy.linalg.pinv2`).
         If False, the the (Moore-Penrose) pseudo-inverse is computed by least-squares solver
